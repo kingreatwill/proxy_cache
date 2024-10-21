@@ -23,9 +23,16 @@ proxy_cache_path /data/nginx/cache levels=1:2:2 keys_zone=cache_zone:100m max_si
 7. max_files 总缓存文件数量(与max_size共同决定能缓存的大小和数量)
 8. 待定[manager_files=number] [manager_sleep=time] [manager_threshold=time] [loader_files=number] [loader_sleep=time] [loader_threshold=time] [purger=on|off] [purger_files=number] [purger_sleep=time] [purger_threshold=time]; 
 
+### 参考
+https://github.com/ydylla/fcache
+
+fork from https://github.com/peterbourgon/diskv
 ### vfs
 
 https://github.com/rainycape/vfs
+
 https://github.com/avfs/avfs
+
 https://github.com/C2FO/vfs
+
 https://github.com/spf13/afero
